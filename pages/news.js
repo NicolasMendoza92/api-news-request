@@ -27,7 +27,7 @@ export default function NewsPage() {
     try {
       const config = {
         params: {
-          apiKey: '22151cac8ef24f039026871a8cc0ee62',
+          apiKey: process.env.API_KEY_NEWS,
           q: 'world',
           category: category,
           country: country,
